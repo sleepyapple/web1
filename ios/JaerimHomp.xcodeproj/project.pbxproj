@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39888FED0096DB24865AD472 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C5503790E4058509F998B20 /* Assets.xcassets */; };
+		3A5C4527E49273104132B852 /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DE3E7EACF2E9A9A84CE4E0 /* Schedule.swift */; };
+		3D0736810795882C8BDCEAF8 /* SharedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A7E22C3A7EEB596FD5EA8B /* SharedStore.swift */; };
+		3D25DCCA8843793F707DEEA4 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730095A6BF52FBACD57E813F /* ShareViewController.swift */; };
+		847181FF1DD2214BA9822528 /* JaerimHompApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8376ABC56FC610D39A84F1A5 /* JaerimHompApp.swift */; };
+		BD021813FFEFD423D3B25F98 /* SharedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E47994BFDB5CBC2ED2298B8 /* SharedItem.swift */; };
+		D2B8D9072F9EB23119A14C84 /* ScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1603BDB9FAA70D0CD04E574B /* ScheduleView.swift */; };
+		DE7CBAE9F82DE3DA0FBCCD7F /* SharedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A7E22C3A7EEB596FD5EA8B /* SharedStore.swift */; };
+		F4EE221957E14708F69152D7 /* ShareExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 5A2017242E44F2EBBD611B30 /* ShareExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F5235A98D937E530A7033767 /* SharedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E47994BFDB5CBC2ED2298B8 /* SharedItem.swift */; };
+		FB5CD948AEB6BCAED372AEDF /* SharedListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8738FD7B06BE9484CC49F655 /* SharedListView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEB219E78F0D47700F022125 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 424F54358C020C02F746778E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B37A6D01FBFCC6682CA72351;
+			remoteInfo = ShareExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		287BED4B6CB5F1AB83B58BE7 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F4EE221957E14708F69152D7 /* ShareExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0C5503790E4058509F998B20 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		13A7E22C3A7EEB596FD5EA8B /* SharedStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SharedStore.swift; sourceTree = "<group>"; };
+		1603BDB9FAA70D0CD04E574B /* ScheduleView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ScheduleView.swift; sourceTree = "<group>"; };
+		56C7BC5C4481B88D8154BAAD /* JaerimHomp.entitlements */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.entitlements; path = JaerimHomp.entitlements; sourceTree = "<group>"; };
+		5A2017242E44F2EBBD611B30 /* ShareExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ShareExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		730095A6BF52FBACD57E813F /* ShareViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+		73DCC953D8753DED219DAEF8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8376ABC56FC610D39A84F1A5 /* JaerimHompApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JaerimHompApp.swift; sourceTree = "<group>"; };
+		8738FD7B06BE9484CC49F655 /* SharedListView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SharedListView.swift; sourceTree = "<group>"; };
+		87A767CE3CCEC36B079D2680 /* ShareExtension.entitlements */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.entitlements; path = ShareExtension.entitlements; sourceTree = "<group>"; };
+		8E470967B93F87EB43B2DA5D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B0F736515469639CCBCDE61 /* JaerimHomp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JaerimHomp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E47994BFDB5CBC2ED2298B8 /* SharedItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SharedItem.swift; sourceTree = "<group>"; };
+		D7DE3E7EACF2E9A9A84CE4E0 /* Schedule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6260B2B40FA0F13683E0EA87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		647D00FC8D8BED63E6DFD43C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		094B1E47F717D430639E23CE /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				9E47994BFDB5CBC2ED2298B8 /* SharedItem.swift */,
+				13A7E22C3A7EEB596FD5EA8B /* SharedStore.swift */,
+			);
+			name = Shared;
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		2EE6E44C0D748F32BCCE83BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B0F736515469639CCBCDE61 /* JaerimHomp.app */,
+				5A2017242E44F2EBBD611B30 /* ShareExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66332F3658EBA2695D5DBD20 /* ShareExtension */ = {
+			isa = PBXGroup;
+			children = (
+				730095A6BF52FBACD57E813F /* ShareViewController.swift */,
+				8E470967B93F87EB43B2DA5D /* Info.plist */,
+				87A767CE3CCEC36B079D2680 /* ShareExtension.entitlements */,
+			);
+			name = ShareExtension;
+			path = ShareExtension;
+			sourceTree = "<group>";
+		};
+		7EE60EC7DD829ACDB363C9A1 /* JaerimHomp */ = {
+			isa = PBXGroup;
+			children = (
+				8376ABC56FC610D39A84F1A5 /* JaerimHompApp.swift */,
+				D7DE3E7EACF2E9A9A84CE4E0 /* Schedule.swift */,
+				1603BDB9FAA70D0CD04E574B /* ScheduleView.swift */,
+				8738FD7B06BE9484CC49F655 /* SharedListView.swift */,
+				0C5503790E4058509F998B20 /* Assets.xcassets */,
+				73DCC953D8753DED219DAEF8 /* Info.plist */,
+				56C7BC5C4481B88D8154BAAD /* JaerimHomp.entitlements */,
+			);
+			name = JaerimHomp;
+			path = JaerimHomp;
+			sourceTree = "<group>";
+		};
+		AE948FA18843E384BE26A5F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F0EC7B8B5A5DB781257BD46A = {
+			isa = PBXGroup;
+			children = (
+				2EE6E44C0D748F32BCCE83BA /* Products */,
+				AE948FA18843E384BE26A5F8 /* Frameworks */,
+				094B1E47F717D430639E23CE /* Shared */,
+				7EE60EC7DD829ACDB363C9A1 /* JaerimHomp */,
+				66332F3658EBA2695D5DBD20 /* ShareExtension */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0482177AC9E4E4DA678A1970 /* JaerimHomp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 977801D1BAA75398BC9D65BF /* Build configuration list for PBXNativeTarget "JaerimHomp" */;
+			buildPhases = (
+				188CB420BB3967C9D9771219 /* Sources */,
+				647D00FC8D8BED63E6DFD43C /* Frameworks */,
+				FF641D773E7484C86DB24770 /* Resources */,
+				287BED4B6CB5F1AB83B58BE7 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F7A221762EE44B123722EC9 /* PBXTargetDependency */,
+			);
+			name = JaerimHomp;
+			productName = JaerimHomp;
+			productReference = 9B0F736515469639CCBCDE61 /* JaerimHomp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B37A6D01FBFCC6682CA72351 /* ShareExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E3804DEBAB3371394282D93 /* Build configuration list for PBXNativeTarget "ShareExtension" */;
+			buildPhases = (
+				3EECC4BD65EB0E3A2D261343 /* Sources */,
+				6260B2B40FA0F13683E0EA87 /* Frameworks */,
+				678CFA9F2F5692D1C775FE68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShareExtension;
+			productName = ShareExtension;
+			productReference = 5A2017242E44F2EBBD611B30 /* ShareExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		424F54358C020C02F746778E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = CA58ED36F0616931216CBC1C /* Build configuration list for PBXProject "JaerimHomp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F0EC7B8B5A5DB781257BD46A;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 100;
+			productRefGroup = 2EE6E44C0D748F32BCCE83BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0482177AC9E4E4DA678A1970 /* JaerimHomp */,
+				B37A6D01FBFCC6682CA72351 /* ShareExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		678CFA9F2F5692D1C775FE68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF641D773E7484C86DB24770 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39888FED0096DB24865AD472 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		188CB420BB3967C9D9771219 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847181FF1DD2214BA9822528 /* JaerimHompApp.swift in Sources */,
+				3A5C4527E49273104132B852 /* Schedule.swift in Sources */,
+				D2B8D9072F9EB23119A14C84 /* ScheduleView.swift in Sources */,
+				FB5CD948AEB6BCAED372AEDF /* SharedListView.swift in Sources */,
+				BD021813FFEFD423D3B25F98 /* SharedItem.swift in Sources */,
+				3D0736810795882C8BDCEAF8 /* SharedStore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EECC4BD65EB0E3A2D261343 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D25DCCA8843793F707DEEA4 /* ShareViewController.swift in Sources */,
+				F5235A98D937E530A7033767 /* SharedItem.swift in Sources */,
+				DE7CBAE9F82DE3DA0FBCCD7F /* SharedStore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4F7A221762EE44B123722EC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ShareExtension;
+			target = B37A6D01FBFCC6682CA72351 /* ShareExtension */;
+			targetProxy = CEB219E78F0D47700F022125 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6E4751727D77C2B6C2267464 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				APP_GROUP_ID = "group.$(BASE_BUNDLE_ID)";
+				BASE_BUNDLE_ID = com.sleepyapple.jaerimhomp;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		B3EDCD0029833748CEAF7ABE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_ENTITLEMENTS = JaerimHomp/JaerimHomp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JaerimHomp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Jaerim's homp";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BASE_BUNDLE_ID)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C858C7DAE21AC561AA77F3A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_ENTITLEMENTS = JaerimHomp/JaerimHomp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JaerimHomp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Jaerim's homp";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BASE_BUNDLE_ID)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D51619FC526D794967E6FA0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				APP_GROUP_ID = "group.$(BASE_BUNDLE_ID)";
+				BASE_BUNDLE_ID = com.sleepyapple.jaerimhomp;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DA56A479F1AEEDAF307F098C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_ENTITLEMENTS = ShareExtension/ShareExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ShareExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Jaerim's homp";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BASE_BUNDLE_ID).ShareExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F81595DE020A2463C04FEC09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_ENTITLEMENTS = ShareExtension/ShareExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ShareExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Jaerim's homp";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BASE_BUNDLE_ID).ShareExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E3804DEBAB3371394282D93 /* Build configuration list for PBXNativeTarget "ShareExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA56A479F1AEEDAF307F098C /* Release */,
+				F81595DE020A2463C04FEC09 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		977801D1BAA75398BC9D65BF /* Build configuration list for PBXNativeTarget "JaerimHomp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C858C7DAE21AC561AA77F3A7 /* Release */,
+				B3EDCD0029833748CEAF7ABE /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA58ED36F0616931216CBC1C /* Build configuration list for PBXProject "JaerimHomp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D51619FC526D794967E6FA0C /* Debug */,
+				6E4751727D77C2B6C2267464 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 424F54358C020C02F746778E /* Project object */;
+}
